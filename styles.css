@@ -1,13 +1,38 @@
 .container {
-    width: 960px;
-    height: 960px;
-    border: 2px solid black;
-    display: flex;
-    margin: auto;
-    flex-wrap: wrap;
+  width: 960px;
+  height: 960px;
+  border: 10px solid red;
+  display: flex;
+  margin: auto;
+  flex-wrap: wrap;
 }
 
 .square {
-    border: 1px solid red;
-    box-sizing: border-box;
+  border: 1px solid red;
+  box-sizing: border-box;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 24px;
+}
+
+button {
+  background-color: black;
+  color: white;
+  padding: 10px 20px;
+  margin: 0 16px;
+  font-size: 16px;
+  border-radius: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #333;
+  transform: scale(1.05);
+}
+
+button:active {
+  background-color: #555;
 }
